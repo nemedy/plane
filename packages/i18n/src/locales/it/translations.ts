@@ -12,7 +12,7 @@ export default {
     home: "Főoldal",
     your_work: "Munkáid",
     inbox: "Beérkező",
-    workspace: "workspace",
+    workspace: "Munkaterület",
     views: "Nézetek",
     analytics: "Elemzés",
     work_items: "Munkatételek",
