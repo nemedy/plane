@@ -6,23 +6,23 @@
 
 export default {
   sidebar: {
-    projects: "Progetti",
-    pages: "Pagine",
-    new_work_item: "Nuovo elemento di lavoro",
-    home: "Home",
-    your_work: "Il tuo lavoro",
-    inbox: "Posta in arrivo",
+    projects: "Projektek",
+    pages: "Oldalak",
+    new_work_item: "Új munkatétel",
+    home: "Főoldal",
+    your_work: "Munkáid",
+    inbox: "Beérkező",
     workspace: "workspace",
-    views: "Visualizzazioni",
-    analytics: "Analisi",
-    work_items: "Elementi di lavoro",
-    cycles: "Cicli",
-    modules: "Moduli",
+    views: "Nézetek",
+    analytics: "Elemzés",
+    work_items: "Munkatételek",
+    cycles: "Ciklusok",
+    modules: "Modulok",
     intake: "Intake",
-    drafts: "Bozze",
-    favorites: "Preferiti",
+    drafts: "Piszkozatok",
+    favorites: "Kedvencek",
     pro: "Pro",
-    upgrade: "Aggiorna",
+    upgrade: "Frissítés",
     stickies: "Stickies",
   },
   auth: {
@@ -36,7 +36,7 @@ export default {
         },
       },
       password: {
-        label: "Password",
+        label: "Jelszó",
         set_password: "Imposta una password",
         placeholder: "Inserisci la password",
         confirm_password: {
@@ -44,7 +44,7 @@ export default {
           placeholder: "Conferma password",
         },
         current_password: {
-          label: "Password attuale",
+          label: "Jelszó attuale",
         },
         new_password: {
           label: "Nuova password",
@@ -69,11 +69,11 @@ export default {
         toast: {
           change_password: {
             success: {
-              title: "Successo!",
-              message: "Password cambiata con successo.",
+              title: "Siker!",
+              message: "Jelszó cambiata con successo.",
             },
             error: {
-              title: "Errore!",
+              title: "Hiba!",
               message: "Qualcosa è andato storto. Per favore riprova.",
             },
           },
@@ -87,17 +87,17 @@ export default {
         sending_code: "Invio codice",
       },
       already_have_an_account: "Hai già un account?",
-      login: "Accedi",
-      create_account: "Crea un account",
+      login: "Bejelentkezés",
+      create_account: "Fiók létrehozása",
       new_to_plane: "Nuovo su Plane?",
       back_to_sign_in: "Torna al login",
       resend_in: "Reinvia in {seconds} secondi",
-      sign_in_with_unique_code: "Accedi con codice unico",
+      sign_in_with_unique_code: "Bejelentkezés con codice unico",
       forgot_password: "Hai dimenticato la password?",
     },
     sign_up: {
       header: {
-        label: "Crea un account per iniziare a gestire il lavoro con il tuo team.",
+        label: "Fiók létrehozása per iniziare a gestire il lavoro con il tuo team.",
         step: {
           email: {
             header: "Registrati",
@@ -121,19 +121,19 @@ export default {
     },
     sign_in: {
       header: {
-        label: "Accedi per iniziare a gestire il lavoro con il tuo team.",
+        label: "Bejelentkezés per iniziare a gestire il lavoro con il tuo team.",
         step: {
           email: {
-            header: "Accedi o registrati",
+            header: "Bejelentkezés o registrati",
             sub_header: "",
           },
           password: {
-            header: "Accedi o registrati",
+            header: "Bejelentkezés o registrati",
             sub_header: "Usa la tua combinazione email-password per accedere.",
           },
           unique_code: {
-            header: "Accedi o registrati",
-            sub_header: "Accedi utilizzando un codice unico inviato all'indirizzo email sopra.",
+            header: "Bejelentkezés o registrati",
+            sub_header: "Bejelentkezés utilizzando un codice unico inviato all'indirizzo email sopra.",
           },
         },
       },
@@ -155,7 +155,7 @@ export default {
             "Controlla la tua inbox per un link per reimpostare la tua password. Se non appare entro pochi minuti, controlla la tua cartella spam.",
         },
         error: {
-          title: "Errore!",
+          title: "Hiba!",
           message: "Qualcosa è andato storto. Per favore riprova.",
         },
       },
@@ -171,54 +171,54 @@ export default {
     sign_out: {
       toast: {
         error: {
-          title: "Errore!",
+          title: "Hiba!",
           message: "Impossibile disconnettersi. Per favore riprova.",
         },
       },
     },
   },
   submit: "Conferma",
-  cancel: "Annulla",
-  loading: "Caricamento",
-  error: "Errore",
-  success: "Successo",
+  cancel: "Mégse",
+  loading: "Betöltés",
+  error: "Hiba",
+  success: "Siker",
   warning: "Avviso",
   info: "Informazioni",
   close: "Chiudi",
   yes: "Sì",
   no: "No",
   ok: "OK",
-  name: "Nome",
-  description: "Descrizione",
-  search: "Cerca",
-  add_member: "Aggiungi membro",
+  name: "Név",
+  description: "Leírás",
+  search: "Keresés",
+  add_member: "Hozzáadás membro",
   adding_members: "Aggiungendo membri",
-  remove_member: "Rimuovi membro",
-  add_members: "Aggiungi membri",
+  remove_member: "Eltávolítás membro",
+  add_members: "Hozzáadás membri",
   adding_member: "Aggiungendo membro",
-  remove_members: "Rimuovi membri",
-  add: "Aggiungi",
+  remove_members: "Eltávolítás membri",
+  add: "Hozzáadás",
   adding: "Aggiungendo",
-  remove: "Rimuovi",
-  add_new: "Aggiungi nuovo",
-  remove_selected: "Rimuovi selezionati",
-  first_name: "Nome",
+  remove: "Eltávolítás",
+  add_new: "Hozzáadás nuovo",
+  remove_selected: "Eltávolítás selezionati",
+  first_name: "Név",
   last_name: "Cognome",
   email: "Email",
-  display_name: "Nome visualizzato",
+  display_name: "Név visualizzato",
   role: "Ruolo",
   timezone: "Fuso orario",
   avatar: "Avatar",
   cover_image: "Immagine di copertina",
-  password: "Password",
+  password: "Jelszó",
   change_cover: "Cambia copertina",
   language: "Lingua",
-  saving: "Salvataggio in corso",
-  save_changes: "Salva modifiche",
+  saving: "Mentéstaggio in corso",
+  save_changes: "Mentés modifiche",
   deactivate_account: "Disattiva account",
   deactivate_account_description:
     "Disattivando un account, tutti i dati e le risorse al suo interno verranno rimossi definitivamente e non potranno essere recuperati.",
-  profile_settings: "Impostazioni del profilo",
+  profile_settings: "Beállítások del profilo",
   your_account: "Il tuo account",
   security: "Sicurezza",
   activity: "Attività",
@@ -256,13 +256,13 @@ export default {
   primary_color_is_required: "Il colore primario è obbligatorio",
   sidebar_background_color_is_required: "Il colore di sfondo della barra laterale è obbligatorio",
   sidebar_text_color_is_required: "Il colore del testo della barra laterale è obbligatorio",
-  updating_theme: "Aggiornamento del tema in corso",
+  updating_theme: "Frissítésmento del tema in corso",
   theme_updated_successfully: "Tema aggiornato con successo",
   failed_to_update_the_theme: "Impossibile aggiornare il tema",
   email_notifications: "Notifiche via email",
   stay_in_the_loop_on_issues_you_are_subscribed_to_enable_this_to_get_notified:
     "Rimani aggiornato sugli elementi di lavoro a cui sei iscritto. Abilita questa opzione per ricevere notifiche.",
-  email_notification_setting_updated_successfully: "Impostazioni delle notifiche email aggiornate con successo",
+  email_notification_setting_updated_successfully: "Beállítások delle notifiche email aggiornate con successo",
   failed_to_update_email_notification_setting: "Impossibile aggiornare le impostazioni delle notifiche email",
   notify_me_when: "Avvisami quando",
   property_changes: "Modifiche alle proprietà",
@@ -277,14 +277,14 @@ export default {
   mentions: "Menzioni",
   mentions_description: "Avvisami solo quando qualcuno mi menziona nei commenti o nella descrizione",
   old_password: "Vecchia password",
-  general_settings: "Impostazioni generali",
+  general_settings: "Beállítások generali",
   sign_out: "Esci",
   signing_out: "Uscita in corso",
-  active_cycles: "Cicli attivi",
+  active_cycles: "Ciklusok attivi",
   active_cycles_description:
     "Monitora i cicli attraverso i progetti, segui gli elementi di lavoro ad alta priorità e analizza i cicli che necessitano attenzione.",
   on_demand_snapshots_of_all_your_cycles: "Snapshot on-demand di tutti i tuoi cicli",
-  upgrade: "Aggiorna",
+  upgrade: "Frissítés",
   "10000_feet_view": "Vista panoramica (10.000 piedi) di tutti i cicli attivi.",
   "10000_feet_view_description":
     "Effettua uno zoom indietro per vedere i cicli in esecuzione in tutti i tuoi progetti contemporaneamente, invece di passare da un ciclo all'altro in ogni progetto.",
@@ -303,20 +303,20 @@ export default {
   stay_ahead_of_blockers: "Anticipa gli ostacoli.",
   stay_ahead_of_blockers_description:
     "Individua le sfide tra i progetti e visualizza le dipendenze inter-cicliche non evidenti in altre viste.",
-  analytics: "Analisi",
+  analytics: "Elemzés",
   workspace_invites: "Inviti allo spazio di lavoro",
   enter_god_mode: "Entra in modalità dio",
   workspace_logo: "Logo dello spazio di lavoro",
-  new_issue: "Nuovo elemento di lavoro",
-  your_work: "Il tuo lavoro",
-  drafts: "Bozze",
-  projects: "Progetti",
-  views: "Visualizzazioni",
+  new_issue: "Új munkatétel",
+  your_work: "Munkáid",
+  drafts: "Piszkozatok",
+  projects: "Projektek",
+  views: "Nézetek",
   workspace: "Spazio di lavoro",
   archives: "Archivi",
-  settings: "Impostazioni",
+  settings: "Beállítások",
   failed_to_move_favorite: "Impossibile spostare il preferito",
-  favorites: "Preferiti",
+  favorites: "Kedvencek",
   no_favorites_yet: "Nessun preferito ancora",
   create_folder: "Crea cartella",
   new_folder: "Nuova cartella",
@@ -331,7 +331,7 @@ export default {
   failed_to_rename_favorite: "Impossibile rinominare il preferito",
   project_link_copied_to_clipboard: "Link del progetto copiato negli appunti",
   link_copied: "Link copiato",
-  add_project: "Aggiungi progetto",
+  add_project: "Hozzáadás progetto",
   create_project: "Crea progetto",
   failed_to_remove_project_from_favorites: "Impossibile rimuovere il progetto dai preferiti. Per favore, riprova.",
   project_created_successfully: "Progetto creato con successo",
@@ -342,13 +342,13 @@ export default {
   project_cover_image_alt: "Immagine di copertina del progetto",
   name_is_required: "Il nome è obbligatorio",
   title_should_be_less_than_255_characters: "Il titolo deve contenere meno di 255 caratteri",
-  project_name: "Nome del progetto",
+  project_name: "Név del progetto",
   project_id_must_be_at_least_1_character: "L'ID del progetto deve contenere almeno 1 carattere",
   project_id_must_be_at_most_5_characters: "L'ID del progetto deve contenere al massimo 5 caratteri",
   project_id: "ID del progetto",
   project_id_tooltip_content:
     "Ti aiuta a identificare in modo univoco gli elementi di lavoro nel progetto. Massimo 10 caratteri.",
-  description_placeholder: "Descrizione",
+  description_placeholder: "Leírás",
   only_alphanumeric_non_latin_characters_allowed: "Sono ammessi solo caratteri alfanumerici e non latini.",
   project_id_is_required: "L'ID del progetto è obbligatorio",
   project_id_allowed_char: "Sono ammessi solo caratteri alfanumerici e non latini.",
@@ -370,8 +370,8 @@ export default {
   removing_project_from_favorites: "Rimozione del progetto dai preferiti in corso",
   project_removed_from_favorites: "Progetto rimosso dai preferiti",
   couldnt_remove_the_project_from_favorites: "Impossibile rimuovere il progetto dai preferiti. Per favore, riprova.",
-  add_to_favorites: "Aggiungi ai preferiti",
-  remove_from_favorites: "Rimuovi dai preferiti",
+  add_to_favorites: "Hozzáadás ai preferiti",
+  remove_from_favorites: "Eltávolítás dai preferiti",
   publish_project: "Pubblica progetto",
   publish: "Pubblica",
   copy_link: "Copia link",
@@ -380,20 +380,20 @@ export default {
   drag_to_rearrange: "Trascina per riorganizzare",
   congrats: "Congratulazioni!",
   open_project: "Apri progetto",
-  issues: "Elementi di lavoro",
-  cycles: "Cicli",
-  modules: "Moduli",
-  pages: "Pagine",
+  issues: "Munkatételek",
+  cycles: "Ciklusok",
+  modules: "Modulok",
+  pages: "Oldalak",
   intake: "Accoglienza",
   time_tracking: "Tracciamento del tempo",
   work_management: "Gestione del lavoro",
-  projects_and_issues: "Progetti ed elementi di lavoro",
+  projects_and_issues: "Projektek ed elementi di lavoro",
   projects_and_issues_description: "Attiva o disattiva queste opzioni per questo progetto.",
   cycles_description:
     "Definisci il tempo di lavoro per progetto e adatta il periodo secondo necessità. Un ciclo può durare 2 settimane, il successivo 1 settimana.",
   modules_description: "Organizza il lavoro in sotto-progetti con responsabili e assegnatari dedicati.",
   views_description:
-    "Salva ordinamenti, filtri e opzioni di visualizzazione personalizzati o condividili con il tuo team.",
+    "Mentés ordinamenti, filtri e opzioni di visualizzazione personalizzati o condividili con il tuo team.",
   pages_description: "Crea e modifica contenuti liberi: appunti, documenti, qualsiasi cosa.",
   intake_description:
     "Consenti ai non membri di segnalare bug, feedback e suggerimenti senza interrompere il tuo flusso di lavoro.",
@@ -444,18 +444,18 @@ export default {
   issue_updated_successfully: "Elemento di lavoro aggiornato con successo",
   issue_could_not_be_updated: "Impossibile aggiornare l'elemento di lavoro",
   create_a_draft: "Crea una bozza",
-  save_to_drafts: "Salva nelle bozze",
-  save: "Salva",
-  update: "Aggiorna",
-  updating: "Aggiornamento in corso",
+  save_to_drafts: "Mentés nelle bozze",
+  save: "Mentés",
+  update: "Frissítés",
+  updating: "Frissítésmento in corso",
   create_new_issue: "Crea un nuovo elemento di lavoro",
   editor_is_not_ready_to_discard_changes: "L'editor non è pronto per scartare le modifiche",
   failed_to_move_issue_to_project: "Impossibile spostare l'elemento di lavoro nel progetto",
   create_more: "Crea altri",
-  add_to_project: "Aggiungi al progetto",
+  add_to_project: "Hozzáadás al progetto",
   discard: "Scarta",
   duplicate_issue_found: "Elemento di lavoro duplicato trovato",
-  duplicate_issues_found: "Elementi di lavoro duplicati trovati",
+  duplicate_issues_found: "Munkatételek duplicati trovati",
   no_matching_results: "Nessun risultato corrispondente",
   title_is_required: "Il titolo è obbligatorio",
   title: "Titolo",
@@ -477,13 +477,13 @@ export default {
   due_date: "Scadenza",
   estimate: "Stima",
   change_parent_issue: "Cambia elemento di lavoro principale",
-  remove_parent_issue: "Rimuovi elemento di lavoro principale",
-  add_parent: "Aggiungi elemento principale",
-  loading_members: "Caricamento membri",
+  remove_parent_issue: "Eltávolítás elemento di lavoro principale",
+  add_parent: "Hozzáadás elemento principale",
+  loading_members: "Betöltés membri",
   view_link_copied_to_clipboard: "Link di visualizzazione copiato negli appunti.",
   required: "Obbligatorio",
   optional: "Opzionale",
-  Cancel: "Annulla",
+  Cancel: "Mégse",
   edit: "Modifica",
   archive: "Archivia",
   restore: "Ripristina",
@@ -500,7 +500,7 @@ export default {
   show_less: "Mostra meno",
   no_data_yet: "Nessun dato disponibile",
   syncing: "Sincronizzazione in corso",
-  add_work_item: "Aggiungi elemento di lavoro",
+  add_work_item: "Hozzáadás elemento di lavoro",
   advanced_description_placeholder: "Premi '/' per i comandi",
   create_work_item: "Crea elemento di lavoro",
   attachments: "Allegati",
@@ -508,8 +508,8 @@ export default {
   declined: "Rifiutato",
   decline: "Rifiuta",
   unassigned: "Non assegnato",
-  work_items: "Elementi di lavoro",
-  add_link: "Aggiungi link",
+  work_items: "Munkatételek",
+  add_link: "Hozzáadás link",
   points: "Punti",
   no_assignee: "Nessun assegnatario",
   no_assignees_yet: "Nessun assegnatario ancora",
@@ -520,8 +520,8 @@ export default {
   leaving: "Uscita in corso",
   removing: "Rimozione in corso",
   leave: "Esci",
-  refresh: "Aggiorna",
-  refreshing: "Aggiornamento in corso",
+  refresh: "Frissítés",
+  refreshing: "Frissítésmento in corso",
   refresh_status: "Stato dell'aggiornamento",
   prev: "Precedente",
   next: "Successivo",
@@ -536,13 +536,13 @@ export default {
   project_view: {
     sort_by: {
       created_at: "Creato il",
-      updated_at: "Aggiornato il",
-      name: "Nome",
+      updated_at: "Frissítésto il",
+      name: "Név",
     },
   },
   toast: {
-    success: "Successo!",
-    error: "Errore!",
+    success: "Siker!",
+    error: "Hiba!",
   },
   links: {
     toasts: {
@@ -605,8 +605,8 @@ export default {
       },
     },
     quick_links: {
-      empty: "Salva link a elementi di lavoro che ti servono.",
-      add: "Aggiungi link rapido",
+      empty: "Mentés link a elementi di lavoro che ti servono.",
+      add: "Hozzáadás link rapido",
       title: "Link rapido",
       title_plural: "Link rapidi",
     },
@@ -620,9 +620,9 @@ export default {
       },
       filters: {
         all: "Tutti",
-        projects: "Progetti",
-        pages: "Pagine",
-        issues: "Elementi di lavoro",
+        projects: "Projektek",
+        pages: "Oldalak",
+        issues: "Munkatételek",
       },
     },
     new_at_plane: {
@@ -636,7 +636,7 @@ export default {
       reordering_failed: "Si è verificato un errore durante il riordino del widget.",
     },
     manage_widgets: "Gestisci widget",
-    title: "Home",
+    title: "Főoldal",
     star_us_on_github: "Metti una stella su GitHub",
   },
   link: {
@@ -663,9 +663,9 @@ export default {
     team_project: "Progetto di squadra",
     project: "Progetto",
     cycle: "Ciclo",
-    cycles: "Cicli",
+    cycles: "Ciklusok",
     module: "Modulo",
-    modules: "Moduli",
+    modules: "Modulok",
     labels: "Etichette",
     assignees: "Assegnatari",
     assignee: "Assegnatario",
@@ -678,52 +678,52 @@ export default {
     display: "Visualizza",
     load_more: "Carica di più",
     activity: "Attività",
-    analytics: "Analisi",
+    analytics: "Elemzés",
     dates: "Date",
-    success: "Successo!",
+    success: "Siker!",
     something_went_wrong: "Qualcosa è andato storto",
     error: {
-      label: "Errore!",
+      label: "Hiba!",
       message: "Si è verificato un errore. Per favore, riprova.",
     },
     group_by: "Raggruppa per",
     epic: "Epic",
     epics: "Epic",
     work_item: "Elemento di lavoro",
-    work_items: "Elementi di lavoro",
+    work_items: "Munkatételek",
     sub_work_item: "Sotto-elemento di lavoro",
-    add: "Aggiungi",
+    add: "Hozzáadás",
     warning: "Avviso",
-    updating: "Aggiornamento in corso",
+    updating: "Frissítésmento in corso",
     adding: "Aggiunta in corso",
-    update: "Aggiorna",
+    update: "Frissítés",
     creating: "Creazione in corso",
     create: "Crea",
-    cancel: "Annulla",
-    description: "Descrizione",
+    cancel: "Mégse",
+    description: "Leírás",
     title: "Titolo",
     attachment: "Allegato",
     general: "Generale",
     features: "Funzionalità",
     automation: "Automazione",
-    project_name: "Nome del progetto",
+    project_name: "Név del progetto",
     project_id: "ID del progetto",
     project_timezone: "Fuso orario del progetto",
     created_on: "Creato il",
-    update_project: "Aggiorna progetto",
+    update_project: "Frissítés progetto",
     identifier_already_exists: "L'identificatore esiste già",
-    add_more: "Aggiungi altro",
+    add_more: "Hozzáadás altro",
     defaults: "Predefiniti",
-    add_label: "Aggiungi etichetta",
+    add_label: "Hozzáadás etichetta",
     estimates: "Stime",
     customize_time_range: "Personalizza intervallo di tempo",
-    loading: "Caricamento",
+    loading: "Betöltés",
     attachments: "Allegati",
     property: "Proprietà",
     properties: "Proprietà",
     parent: "Principale",
     page: "Pagina",
-    remove: "Rimuovi",
+    remove: "Eltávolítás",
     archiving: "Archiviazione in corso",
     archive: "Archivia",
     access: {
@@ -743,16 +743,16 @@ export default {
       due_date: "Scadenza",
       asc: "Ascendente",
       desc: "Discendente",
-      updated_on: "Aggiornato il",
+      updated_on: "Frissítésto il",
     },
     sort: {
       asc: "Ascendente",
       desc: "Discendente",
       created_on: "Creato il",
-      updated_on: "Aggiornato il",
+      updated_on: "Frissítésto il",
     },
     comments: "Commenti",
-    updates: "Aggiornamenti",
+    updates: "Frissítésmenti",
     clear_all: "Pulisci tutto",
     copied: "Copiato!",
     link_copied: "Link copiato!",
@@ -760,7 +760,7 @@ export default {
     copied_to_clipboard: "Link dell'elemento di lavoro copiato negli appunti",
     is_copied_to_clipboard: "Elemento di lavoro copiato negli appunti",
     no_links_added_yet: "Nessun link aggiunto ancora",
-    add_link: "Aggiungi link",
+    add_link: "Hozzáadás link",
     links: "Link",
     go_to_workspace: "Vai allo spazio di lavoro",
     progress: "Progresso",
@@ -772,17 +772,17 @@ export default {
     relations: "Relazioni",
     errors: {
       default: {
-        title: "Errore!",
+        title: "Hiba!",
         message: "Qualcosa è andato storto. Per favore, riprova.",
       },
       required: "Questo campo è obbligatorio",
       entity_required: "{entity} è obbligatorio",
       restricted_entity: "{entity} è limitato",
     },
-    update_link: "Aggiorna link",
+    update_link: "Frissítés link",
     attach: "Allega",
     create_new: "Crea nuovo",
-    add_existing: "Aggiungi esistente",
+    add_existing: "Hozzáadás esistente",
     type_or_paste_a_url: "Digita o incolla un URL",
     url_is_invalid: "L'URL non è valido",
     display_title: "Titolo di visualizzazione",
@@ -802,7 +802,7 @@ export default {
     press_for_commands: "Premi '/' per i comandi",
     click_to_add_description: "Clicca per aggiungere una descrizione",
     search: {
-      label: "Cerca",
+      label: "Keresés",
       placeholder: "Digita per cercare",
       no_matches_found: "Nessuna corrispondenza trovata",
       no_matching_results: "Nessun risultato corrispondente",
@@ -815,15 +815,15 @@ export default {
       archive: "Archivia",
       restore: "Ripristina",
       delete: "Elimina",
-      remove_relation: "Rimuovi relazione",
+      remove_relation: "Eltávolítás relazione",
       subscribe: "Iscriviti",
-      unsubscribe: "Annulla iscrizione",
+      unsubscribe: "Mégse iscrizione",
       clear_sorting: "Cancella ordinamento",
       show_weekends: "Mostra weekend",
       enable: "Abilita",
       disable: "Disabilita",
     },
-    name: "Nome",
+    name: "Név",
     discard: "Scarta",
     confirm: "Conferma",
     confirming: "Conferma in corso",
@@ -843,7 +843,7 @@ export default {
     or: "o",
     next: "Successivo",
     back: "Indietro",
-    cancelling: "Annullamento in corso",
+    cancelling: "Mégsemento in corso",
     configuring: "Configurazione in corso",
     clear: "Pulisci",
     import: "Importa",
@@ -854,11 +854,11 @@ export default {
     from: "da {name}",
     authenticated: "Autenticato",
     select: "Seleziona",
-    upgrade: "Aggiorna",
-    add_seats: "Aggiungi postazioni",
+    upgrade: "Frissítés",
+    add_seats: "Hozzáadás postazioni",
     label: "Etichetta",
     priorities: "Priorità",
-    projects: "Progetti",
+    projects: "Projektek",
     workspace: "Spazio di lavoro",
     workspaces: "Spazi di lavoro",
     team: "Team",
@@ -889,8 +889,8 @@ export default {
     },
     category: "Categoria",
     categories: "Categorie",
-    saving: "Salvataggio in corso",
-    save_changes: "Salva modifiche",
+    saving: "Mentéstaggio in corso",
+    save_changes: "Mentés modifiche",
     delete: "Elimina",
     deleting: "Eliminazione in corso",
     pending: "In sospeso",
@@ -937,20 +937,20 @@ export default {
       failed: "Eliminazione di {entity} fallita",
     },
     update: {
-      failed: "Aggiornamento di {entity} fallito",
+      failed: "Frissítésmento di {entity} fallito",
       success: "{entity} aggiornato con successo",
     },
     link_copied_to_clipboard: "Link di {entity} copiato negli appunti",
     fetch: {
-      failed: "Errore durante il recupero di {entity}",
+      failed: "Hiba durante il recupero di {entity}",
     },
     add: {
       success: "{entity} aggiunto con successo",
-      failed: "Errore nell'aggiunta di {entity}",
+      failed: "Hiba nell'aggiunta di {entity}",
     },
     remove: {
       success: "{entity} rimosso con successo",
-      failed: "Errore nella rimozione di {entity}",
+      failed: "Hiba nella rimozione di {entity}",
     },
   },
   epic: {
@@ -963,7 +963,7 @@ export default {
     },
     add: {
       press_enter: "Premi 'Invio' per aggiungere un altro Epic",
-      label: "Aggiungi Epic",
+      label: "Hozzáadás Epic",
     },
     title: {
       label: "Titolo Epic",
@@ -971,7 +971,7 @@ export default {
     },
   },
   issue: {
-    label: "{count, plural, one {Elemento di lavoro} other {Elementi di lavoro}}",
+    label: "{count, plural, one {Elemento di lavoro} other {Munkatételek}}",
     all: "Tutti gli elementi di lavoro",
     edit: "Modifica elemento di lavoro",
     title: {
@@ -980,23 +980,23 @@ export default {
     },
     add: {
       press_enter: "Premi 'Invio' per aggiungere un altro elemento di lavoro",
-      label: "Aggiungi elemento di lavoro",
+      label: "Hozzáadás elemento di lavoro",
       cycle: {
         failed: "Impossibile aggiungere l'elemento di lavoro al ciclo. Per favore, riprova.",
-        success: "{count, plural, one {Elemento di lavoro} other {Elementi di lavoro}} aggiunto al ciclo con successo.",
+        success: "{count, plural, one {Elemento di lavoro} other {Munkatételek}} aggiunto al ciclo con successo.",
         loading: "Aggiungendo {count, plural, one {elemento di lavoro} other {elementi di lavoro}} al ciclo",
       },
-      assignee: "Aggiungi assegnatari",
-      start_date: "Aggiungi data di inizio",
-      due_date: "Aggiungi scadenza",
-      parent: "Aggiungi elemento di lavoro principale",
-      sub_issue: "Aggiungi sotto-elemento di lavoro",
-      relation: "Aggiungi relazione",
-      link: "Aggiungi link",
-      existing: "Aggiungi elemento di lavoro esistente",
+      assignee: "Hozzáadás assegnatari",
+      start_date: "Hozzáadás data di inizio",
+      due_date: "Hozzáadás scadenza",
+      parent: "Hozzáadás elemento di lavoro principale",
+      sub_issue: "Hozzáadás sotto-elemento di lavoro",
+      relation: "Hozzáadás relazione",
+      link: "Hozzáadás link",
+      existing: "Hozzáadás elemento di lavoro esistente",
     },
     remove: {
-      label: "Rimuovi elemento di lavoro",
+      label: "Eltávolítás elemento di lavoro",
       cycle: {
         loading: "Rimuovendo l'elemento di lavoro dal ciclo",
         success: "Elemento di lavoro rimosso dal ciclo con successo.",
@@ -1008,10 +1008,10 @@ export default {
         failed: "Impossibile rimuovere l'elemento di lavoro dal modulo. Per favore, riprova.",
       },
       parent: {
-        label: "Rimuovi elemento di lavoro principale",
+        label: "Eltávolítás elemento di lavoro principale",
       },
     },
-    new: "Nuovo elemento di lavoro",
+    new: "Új munkatétel",
     adding: "Aggiunta dell'elemento di lavoro in corso",
     create: {
       success: "Elemento di lavoro creato con successo",
@@ -1058,7 +1058,7 @@ export default {
       backlog: "Backlog",
     },
     comments: {
-      placeholder: "Aggiungi commento",
+      placeholder: "Hozzáadás commento",
       switch: {
         private: "Passa a commento privato",
         public: "Passa a commento pubblico",
@@ -1069,18 +1069,18 @@ export default {
       },
       update: {
         success: "Commento aggiornato con successo",
-        error: "Aggiornamento del commento fallito. Per favore, riprova più tardi.",
+        error: "Frissítésmento del commento fallito. Per favore, riprova più tardi.",
       },
       remove: {
         success: "Commento rimosso con successo",
         error: "Rimozione del commento fallita. Per favore, riprova più tardi.",
       },
       upload: {
-        error: "Caricamento dell'asset fallito. Per favore, riprova più tardi.",
+        error: "Betöltés dell'asset fallito. Per favore, riprova più tardi.",
       },
       copy_link: {
         success: "Link del commento copiato negli appunti",
-        error: "Errore durante la copia del link del commento. Riprova più tardi.",
+        error: "Hiba durante la copia del link del commento. Riprova più tardi.",
       },
     },
     empty_state: {
@@ -1093,7 +1093,7 @@ export default {
       },
     },
     sibling: {
-      label: "Elementi di lavoro correlati",
+      label: "Munkatételek correlati",
     },
     archive: {
       description: "Solo gli elementi di lavoro completati o annullati possono essere archiviati",
@@ -1126,7 +1126,7 @@ export default {
     copy_link: "Copia link dell'elemento di lavoro",
     delete: {
       label: "Elimina elemento di lavoro",
-      error: "Errore nell'eliminazione dell'elemento di lavoro",
+      error: "Hiba nell'eliminazione dell'elemento di lavoro",
     },
     subscription: {
       actions: {
@@ -1137,7 +1137,7 @@ export default {
     select: {
       error: "Seleziona almeno un elemento di lavoro",
       empty: "Nessun elemento di lavoro selezionato",
-      add_selected: "Aggiungi gli elementi di lavoro selezionati",
+      add_selected: "Hozzáadás gli elementi di lavoro selezionati",
       select_all: "Seleziona tutto",
       deselect_all: "Deseleziona tutto",
     },
@@ -1162,11 +1162,11 @@ export default {
   sub_work_item: {
     update: {
       success: "Sotto-elemento di lavoro aggiornato con successo",
-      error: "Errore nell'aggiornamento del sotto-elemento di lavoro",
+      error: "Hiba nell'aggiornamento del sotto-elemento di lavoro",
     },
     remove: {
       success: "Sotto-elemento di lavoro rimosso con successo",
-      error: "Errore nella rimozione del sotto-elemento di lavoro",
+      error: "Hiba nella rimozione del sotto-elemento di lavoro",
     },
     empty_state: {
       sub_list_filters: {
@@ -1182,12 +1182,12 @@ export default {
     },
   },
   view: {
-    label: "{count, plural, one {Visualizzazione} other {Visualizzazioni}}",
+    label: "{count, plural, one {Visualizzazione} other {Nézetek}}",
     create: {
       label: "Crea visualizzazione",
     },
     update: {
-      label: "Aggiorna visualizzazione",
+      label: "Frissítés visualizzazione",
     },
   },
   inbox_issue: {
@@ -1233,7 +1233,7 @@ export default {
       accept: "Accetta",
       decline: "Rifiuta",
       snooze: "Snoozed",
-      unsnooze: "Annulla snooze",
+      unsnooze: "Mégse snooze",
       copy: "Copia link dell'elemento di lavoro",
       delete: "Elimina",
       open: "Apri elemento di lavoro",
@@ -1245,7 +1245,7 @@ export default {
     },
     order_by: {
       created_at: "Creato il",
-      updated_at: "Aggiornato il",
+      updated_at: "Frissítésto il",
       id: "ID",
     },
     label: "Accoglienza",
@@ -1320,11 +1320,11 @@ export default {
     },
     toast: {
       success: {
-        title: "Successo",
+        title: "Siker",
         message: "Spazio di lavoro creato con successo",
       },
       error: {
-        title: "Errore",
+        title: "Hiba",
         message: "Impossibile creare lo spazio di lavoro. Per favore, riprova.",
       },
     },
@@ -1347,21 +1347,21 @@ export default {
     },
   },
   workspace_analytics: {
-    label: "Analisi",
-    page_label: "{workspace} - Analisi",
+    label: "Elemzés",
+    page_label: "{workspace} - Elemzés",
     open_tasks: "Totale attività aperte",
     error: "Si è verificato un errore nel recupero dei dati.",
-    work_items_closed_in: "Elementi di lavoro chiusi in",
-    selected_projects: "Progetti selezionati",
+    work_items_closed_in: "Munkatételek chiusi in",
+    selected_projects: "Projektek selezionati",
     total_members: "Totale membri",
     total_cycles: "Totale cicli",
     total_modules: "Totale moduli",
     pending_work_items: {
-      title: "Elementi di lavoro in sospeso",
+      title: "Munkatételek in sospeso",
       empty_state: "L'analisi degli elementi di lavoro in sospeso dei colleghi apparirà qui.",
     },
     work_items_closed_in_a_year: {
-      title: "Elementi di lavoro chiusi in un anno",
+      title: "Munkatételek chiusi in un anno",
       empty_state: "Chiudi gli elementi di lavoro per visualizzare l'analisi sotto forma di grafico.",
     },
     most_work_items_created: {
@@ -1374,7 +1374,7 @@ export default {
     },
     tabs: {
       scope_and_demand: "Ambito e Domanda",
-      custom: "Analisi personalizzata",
+      custom: "Elemzés personalizzata",
     },
     empty_state: {
       customized_insights: {
@@ -1397,9 +1397,9 @@ export default {
         primary_button: {
           text: "Inizia il tuo primo progetto",
           comic: {
-            title: "Analytics funziona meglio con Cicli + Moduli",
+            title: "Analytics funziona meglio con Ciklusok + Modulok",
             description:
-              "Prima, incornicia i tuoi elementi di lavoro in Cicli e, se possibile, raggruppa gli elementi che si estendono oltre un ciclo in Moduli. Controlla entrambi nella navigazione sinistra.",
+              "Prima, incornicia i tuoi elementi di lavoro in Ciklusok e, se possibile, raggruppa gli elementi che si estendono oltre un ciclo in Modulok. Controlla entrambi nella navigazione sinistra.",
           },
         },
       },
@@ -1407,14 +1407,14 @@ export default {
     created_vs_resolved: "Creato vs Risolto",
     customized_insights: "Approfondimenti personalizzati",
     backlog_work_items: "{entity} nel backlog",
-    active_projects: "Progetti attivi",
+    active_projects: "Projektek attivi",
     trend_on_charts: "Tendenza nei grafici",
     all_projects: "Tutti i progetti",
     summary_of_projects: "Riepilogo dei progetti",
     project_insights: "Approfondimenti sul progetto",
     started_work_items: "{entity} iniziati",
     total_work_items: "Totale {entity}",
-    total_projects: "Progetti totali",
+    total_projects: "Projektek totali",
     total_admins: "Totale amministratori",
     total_users: "Totale utenti",
     total_intake: "Entrate totali",
@@ -1424,9 +1424,9 @@ export default {
     total: "Totale {entity}",
   },
   workspace_projects: {
-    label: "{count, plural, one {Progetto} other {Progetti}}",
+    label: "{count, plural, one {Progetto} other {Projektek}}",
     create: {
-      label: "Aggiungi progetto",
+      label: "Hozzáadás progetto",
     },
     network: {
       label: "Rete",
@@ -1450,11 +1450,11 @@ export default {
       unstarted: "Non iniziato",
       started: "Iniziato",
       completed: "Completato",
-      cancelled: "Annullato",
+      cancelled: "Mégseto",
     },
     sort: {
       manual: "Manuale",
-      name: "Nome",
+      name: "Név",
       created_at: "Data di creazione",
       members_length: "Numero di membri",
     },
@@ -1469,7 +1469,7 @@ export default {
       general: {
         title: "Nessun progetto attivo",
         description:
-          "Considera ogni progetto come la base per un lavoro orientato a obiettivi. I progetti sono dove risiedono Jobs, Cicli e Moduli e, insieme ai tuoi colleghi, ti aiutano a raggiungere quell'obiettivo. Crea un nuovo progetto o filtra per progetti archiviati.",
+          "Considera ogni progetto come la base per un lavoro orientato a obiettivi. I progetti sono dove risiedono Jobs, Ciklusok e Modulok e, insieme ai tuoi colleghi, ti aiutano a raggiungere quell'obiettivo. Crea un nuovo progetto o filtra per progetti archiviati.",
         primary_button: {
           text: "Inizia il tuo primo progetto",
           comic: {
@@ -1502,7 +1502,7 @@ export default {
     },
   },
   workspace_views: {
-    add_view: "Aggiungi visualizzazione",
+    add_view: "Hozzáadás visualizzazione",
     empty_state: {
       "all-issues": {
         title: "Nessun elemento di lavoro nel progetto",
@@ -1547,8 +1547,8 @@ export default {
         title: "Cambia email",
         description: "Inserisci un nuovo indirizzo email per ricevere un link di verifica.",
         toasts: {
-          success_title: "Successo!",
-          success_message: "Email aggiornata con successo. Accedi di nuovo.",
+          success_title: "Siker!",
+          success_message: "Email aggiornata con successo. Bejelentkezés di nuovo.",
         },
         form: {
           email: {
@@ -1574,7 +1574,7 @@ export default {
         actions: {
           continue: "Continua",
           confirm: "Conferma",
-          cancel: "Annulla",
+          cancel: "Mégse",
         },
         states: {
           sending: "Invio…",
@@ -1583,8 +1583,8 @@ export default {
     },
   },
   workspace_settings: {
-    label: "Impostazioni dello spazio di lavoro",
-    page_label: "{workspace} - Impostazioni generali",
+    label: "Beállítások dello spazio di lavoro",
+    page_label: "{workspace} - Beállítások generali",
     key_created: "Chiave creata",
     copy_key:
       "Copia e salva questa chiave segreta in Plane Pages. Non potrai vederla dopo aver cliccato Chiudi. È stato scaricato un file CSV contenente la chiave.",
@@ -1594,11 +1594,11 @@ export default {
         title: "Generale",
         upload_logo: "Carica logo",
         edit_logo: "Modifica logo",
-        name: "Nome dello spazio di lavoro",
+        name: "Név dello spazio di lavoro",
         company_size: "Dimensione aziendale",
         url: "URL dello spazio di lavoro",
         workspace_timezone: "Fuso orario dello spazio di lavoro",
-        update_workspace: "Aggiorna spazio di lavoro",
+        update_workspace: "Frissítés spazio di lavoro",
         delete_workspace: "Elimina questo spazio di lavoro",
         delete_workspace_description:
           "Eliminando uno spazio di lavoro, tutti i dati e le risorse all'interno di esso verranno rimossi definitivamente e non potranno essere recuperati.",
@@ -1607,8 +1607,8 @@ export default {
           title: "Sei sicuro di voler eliminare questo spazio di lavoro?",
           description:
             "Hai un periodo di prova attivo per uno dei nostri piani a pagamento. Per procedere, annulla prima il periodo di prova.",
-          dismiss: "Annulla",
-          cancel: "Annulla periodo di prova",
+          dismiss: "Mégse",
+          cancel: "Mégse periodo di prova",
           success_title: "Spazio di lavoro eliminato.",
           success_message: "Presto verrai reindirizzato alla tua pagina del profilo.",
           error_title: "Qualcosa non ha funzionato.",
@@ -1627,14 +1627,14 @@ export default {
       },
       members: {
         title: "Membri",
-        add_member: "Aggiungi membro",
+        add_member: "Hozzáadás membro",
         pending_invites: "Inviti in sospeso",
         invitations_sent_successfully: "Inviti inviati con successo",
         leave_confirmation:
           "Sei sicuro di voler lasciare lo spazio di lavoro? Non avrai più accesso a questo spazio. Questa azione non può essere annullata.",
         details: {
-          full_name: "Nome completo",
-          display_name: "Nome visualizzato",
+          full_name: "Név completo",
+          display_name: "Név visualizzato",
           email_address: "Indirizzo email",
           account_type: "Tipo di account",
           authentication: "Autenticazione",
@@ -1680,7 +1680,7 @@ export default {
       },
       webhooks: {
         title: "Webhooks",
-        add_webhook: "Aggiungi webhook",
+        add_webhook: "Hozzáadás webhook",
         modal: {
           title: "Crea webhook",
           details: "Dettagli del webhook",
@@ -1725,13 +1725,13 @@ export default {
             message: "Chiave segreta copiata negli appunti.",
           },
           secret_key_not_copied: {
-            message: "Errore durante la copia della chiave segreta.",
+            message: "Hiba durante la copia della chiave segreta.",
           },
         },
       },
       api_tokens: {
         title: "Token API",
-        add_token: "Aggiungi token API",
+        add_token: "Hozzáadás token API",
         create_token: "Crea token",
         never_expires: "Non scade mai",
         generate_token: "Genera token",
@@ -1741,11 +1741,11 @@ export default {
           description:
             "Qualsiasi applicazione che utilizza questo token non avrà più accesso ai dati di Plane. Questa azione non può essere annullata.",
           success: {
-            title: "Successo!",
+            title: "Siker!",
             message: "Il token API è stato eliminato con successo",
           },
           error: {
-            title: "Errore!",
+            title: "Hiba!",
             message: "Il token API non può essere eliminato",
           },
         },
@@ -1773,7 +1773,7 @@ export default {
   },
   profile: {
     label: "Profilo",
-    page_label: "Il tuo lavoro",
+    page_label: "Munkáid",
     work: "Lavoro",
     details: {
       joined_on: "Iscritto il",
@@ -1782,15 +1782,15 @@ export default {
     stats: {
       workload: "Carico di lavoro",
       overview: "Panoramica",
-      created: "Elementi di lavoro creati",
-      assigned: "Elementi di lavoro assegnati",
-      subscribed: "Elementi di lavoro iscritti",
+      created: "Munkatételek creati",
+      assigned: "Munkatételek assegnati",
+      subscribed: "Munkatételek iscritti",
       state_distribution: {
-        title: "Elementi di lavoro per stato",
+        title: "Munkatételek per stato",
         empty: "Crea elementi di lavoro per visualizzarli per stato nel grafico per un'analisi migliore.",
       },
       priority_distribution: {
-        title: "Elementi di lavoro per priorità",
+        title: "Munkatételek per priorità",
         empty: "Crea elementi di lavoro per visualizzarli per priorità nel grafico per un'analisi migliore.",
       },
       recent_activity: {
@@ -1818,7 +1818,7 @@ export default {
       activity: {
         title: "Nessuna attività ancora",
         description:
-          "Inizia creando un nuovo elemento di lavoro! Aggiungi dettagli e proprietà ad esso. Esplora Plane per vedere la tua attività.",
+          "Inizia creando un nuovo elemento di lavoro! Hozzáadás dettagli e proprietà ad esso. Esplora Plane per vedere la tua attività.",
       },
       assigned: {
         title: "Nessun elemento di lavoro assegnato a te",
@@ -1881,7 +1881,7 @@ export default {
       label_title_is_required: "Il titolo dell'etichetta è obbligatorio",
       label_max_char: "Il nome dell'etichetta non deve superare i 255 caratteri",
       toast: {
-        error: "Errore durante l'aggiornamento dell'etichetta",
+        error: "Hiba durante l'aggiornamento dell'etichetta",
       },
     },
     estimates: {
@@ -1922,17 +1922,17 @@ export default {
         },
         enabled: {
           success: {
-            title: "Successo!",
+            title: "Siker!",
             message: "Le stime sono state abilitate.",
           },
         },
         disabled: {
           success: {
-            title: "Successo!",
+            title: "Siker!",
             message: "Le stime sono state disabilitate.",
           },
           error: {
-            title: "Errore!",
+            title: "Hiba!",
             message: "Impossibile disabilitare la stima. Riprova",
           },
         },
@@ -1944,7 +1944,7 @@ export default {
         character: "La stima deve essere un valore di carattere.",
         empty: "Il valore della stima non può essere vuoto.",
         already_exists: "Il valore della stima esiste già.",
-        unsaved_changes: "Hai delle modifiche non salvate. Salva prima di cliccare su Fatto",
+        unsaved_changes: "Hai delle modifiche non salvate. Mentés prima di cliccare su Fatto",
         remove_empty:
           "La stima non può essere vuota. Inserisci un valore in ogni campo o rimuovi quelli per cui non hai valori.",
       },
@@ -1990,21 +1990,21 @@ export default {
       estimates: {
         title: "Nessun sistema di stime ancora",
         description: "Crea un set di stime per comunicare la quantità di lavoro per elemento di lavoro.",
-        primary_button: "Aggiungi sistema di stime",
+        primary_button: "Hozzáadás sistema di stime",
       },
     },
     features: {
       cycles: {
-        title: "Cicli",
-        short_title: "Cicli",
+        title: "Ciklusok",
+        short_title: "Ciklusok",
         description:
           "Pianifica il lavoro in periodi flessibili che si adattano al ritmo e al tempo unici di questo progetto.",
         toggle_title: "Abilita cicli",
         toggle_description: "Pianifica il lavoro in periodi di tempo mirati.",
       },
       modules: {
-        title: "Moduli",
-        short_title: "Moduli",
+        title: "Modulok",
+        short_title: "Modulok",
         description: "Organizza il lavoro in sotto-progetti con responsabili e assegnatari dedicati.",
         toggle_title: "Abilita moduli",
         toggle_description: "I membri del progetto potranno creare e modificare moduli.",
@@ -2013,13 +2013,13 @@ export default {
         title: "Viste",
         short_title: "Viste",
         description:
-          "Salva ordinamenti, filtri e opzioni di visualizzazione personalizzati o condividili con il tuo team.",
+          "Mentés ordinamenti, filtri e opzioni di visualizzazione personalizzati o condividili con il tuo team.",
         toggle_title: "Abilita viste",
         toggle_description: "I membri del progetto potranno creare e modificare viste.",
       },
       pages: {
-        title: "Pagine",
-        short_title: "Pagine",
+        title: "Oldalak",
+        short_title: "Oldalak",
         description: "Crea e modifica contenuti liberi: note, documenti, qualsiasi cosa.",
         toggle_title: "Abilita pagine",
         toggle_description: "I membri del progetto potranno creare e modificare pagine.",
@@ -2035,26 +2035,26 @@ export default {
     },
   },
   project_cycles: {
-    add_cycle: "Aggiungi ciclo",
+    add_cycle: "Hozzáadás ciclo",
     more_details: "Altri dettagli",
     cycle: "Ciclo",
-    update_cycle: "Aggiorna ciclo",
+    update_cycle: "Frissítés ciclo",
     create_cycle: "Crea ciclo",
     no_matching_cycles: "Nessun ciclo corrispondente",
-    remove_filters_to_see_all_cycles: "Rimuovi i filtri per vedere tutti i cicli",
-    remove_search_criteria_to_see_all_cycles: "Rimuovi i criteri di ricerca per vedere tutti i cicli",
+    remove_filters_to_see_all_cycles: "Eltávolítás i filtri per vedere tutti i cicli",
+    remove_search_criteria_to_see_all_cycles: "Eltávolítás i criteri di ricerca per vedere tutti i cicli",
     only_completed_cycles_can_be_archived: "Solo i cicli completati possono essere archiviati",
     start_date: "Data di inizio",
     end_date: "Data di fine",
     in_your_timezone: "Nel tuo fuso orario",
     transfer_work_items: "Trasferisci {count} elementi di lavoro",
     date_range: "Intervallo di date",
-    add_date: "Aggiungi data",
+    add_date: "Hozzáadás data",
     active_cycle: {
       label: "Ciclo attivo",
       progress: "Avanzamento",
       chart: "Grafico di burndown",
-      priority_issue: "Elementi di lavoro ad alta priorità",
+      priority_issue: "Munkatételek ad alta priorità",
       assignees: "Assegnatari",
       issue_burndown: "Burndown degli elementi di lavoro",
       ideal: "Ideale",
@@ -2090,33 +2090,33 @@ export default {
         loading: "Aggiunta del ciclo ai preferiti in corso",
         success: {
           description: "Ciclo aggiunto ai preferiti.",
-          title: "Successo!",
+          title: "Siker!",
         },
         failed: {
           description: "Impossibile aggiungere il ciclo ai preferiti. Per favore, riprova.",
-          title: "Errore!",
+          title: "Hiba!",
         },
       },
       unfavorite: {
         loading: "Rimozione del ciclo dai preferiti in corso",
         success: {
           description: "Ciclo rimosso dai preferiti.",
-          title: "Successo!",
+          title: "Siker!",
         },
         failed: {
           description: "Impossibile rimuovere il ciclo dai preferiti. Per favore, riprova.",
-          title: "Errore!",
+          title: "Hiba!",
         },
       },
       update: {
-        loading: "Aggiornamento del ciclo in corso",
+        loading: "Frissítésmento del ciclo in corso",
         success: {
           description: "Ciclo aggiornato con successo.",
-          title: "Successo!",
+          title: "Siker!",
         },
         failed: {
-          description: "Errore durante l'aggiornamento del ciclo. Per favore, riprova.",
-          title: "Errore!",
+          description: "Hiba durante l'aggiornamento del ciclo. Per favore, riprova.",
+          title: "Hiba!",
         },
         error: {
           already_exists:
@@ -2140,12 +2140,12 @@ export default {
       },
       no_issues: {
         title: "Nessun elemento di lavoro aggiunto al ciclo",
-        description: "Aggiungi o crea gli elementi di lavoro che desideri includere in questo ciclo",
+        description: "Hozzáadás o crea gli elementi di lavoro che desideri includere in questo ciclo",
         primary_button: {
           text: "Crea un nuovo elemento di lavoro",
         },
         secondary_button: {
-          text: "Aggiungi un elemento di lavoro esistente",
+          text: "Hozzáadás un elemento di lavoro esistente",
         },
       },
       completed_no_issues: {
@@ -2197,15 +2197,15 @@ export default {
     },
   },
   project_module: {
-    add_module: "Aggiungi Modulo",
-    update_module: "Aggiorna Modulo",
+    add_module: "Hozzáadás Modulo",
+    update_module: "Frissítés Modulo",
     create_module: "Crea Modulo",
     archive_module: "Archivia Modulo",
     restore_module: "Ripristina Modulo",
     delete_module: "Elimina modulo",
     empty_state: {
       general: {
-        title: "Associa i traguardi del tuo progetto ai Moduli e traccia facilmente il lavoro aggregato.",
+        title: "Associa i traguardi del tuo progetto ai Modulok e traccia facilmente il lavoro aggregato.",
         description:
           "Un gruppo di elementi di lavoro che appartengono a un genitore logico e gerarchico forma un modulo. Considerali come un modo per tracciare il lavoro in base ai traguardi del progetto. Hanno i propri intervalli temporali e scadenze, oltre ad analisi che ti aiutano a vedere quanto sei vicino o lontano da un traguardo.",
         primary_button: {
@@ -2224,7 +2224,7 @@ export default {
           text: "Crea nuovi elementi di lavoro",
         },
         secondary_button: {
-          text: "Aggiungi un elemento di lavoro esistente",
+          text: "Hozzáadás un elemento di lavoro esistente",
         },
       },
       archived: {
@@ -2255,7 +2255,7 @@ export default {
   project_views: {
     empty_state: {
       general: {
-        title: "Salva visualizzazioni filtrate per il tuo progetto. Crea quante ne vuoi",
+        title: "Mentés visualizzazioni filtrate per il tuo progetto. Crea quante ne vuoi",
         description:
           "Le visualizzazioni sono un insieme di filtri salvati che usi frequentemente o a cui vuoi avere accesso rapido. Tutti i tuoi colleghi in un progetto possono vedere tutte le visualizzazioni e scegliere quella che fa per loro.",
         primary_button: {
@@ -2342,15 +2342,15 @@ export default {
       mark_all_as_read: "Segna tutto come letto",
       mark_read: "Segna come letto",
       mark_unread: "Segna come non letto",
-      refresh: "Aggiorna",
+      refresh: "Frissítés",
       filters: "Filtri Notifiche",
       show_unread: "Mostra non lette",
       show_snoozed: "Mostra snoozate",
       show_archived: "Mostra archiviate",
       mark_archive: "Archivia",
-      mark_unarchive: "Rimuovi da archivio",
+      mark_unarchive: "Eltávolítás da archivio",
       mark_snooze: "Snoozed",
-      mark_unsnooze: "Annulla snooze",
+      mark_unsnooze: "Mégse snooze",
     },
     toasts: {
       read: "Notifica segnata come letta",
@@ -2394,19 +2394,19 @@ export default {
   active_cycle: {
     empty_state: {
       progress: {
-        title: "Aggiungi elementi di lavoro al ciclo per visualizzarne l'avanzamento",
+        title: "Hozzáadás elementi di lavoro al ciclo per visualizzarne l'avanzamento",
       },
       chart: {
-        title: "Aggiungi elementi di lavoro al ciclo per visualizzare il grafico di burndown.",
+        title: "Hozzáadás elementi di lavoro al ciclo per visualizzare il grafico di burndown.",
       },
       priority_issue: {
         title: "Visualizza in anteprima gli elementi di lavoro ad alta priorità del ciclo.",
       },
       assignee: {
-        title: "Aggiungi assegnatari agli elementi di lavoro per vedere la ripartizione per assegnatario.",
+        title: "Hozzáadás assegnatari agli elementi di lavoro per vedere la ripartizione per assegnatario.",
       },
       label: {
-        title: "Aggiungi etichette agli elementi di lavoro per vedere la ripartizione per etichette.",
+        title: "Hozzáadás etichette agli elementi di lavoro per vedere la ripartizione per etichette.",
       },
     },
   },
@@ -2482,26 +2482,26 @@ export default {
     title: "I tuoi stickies",
     placeholder: "clicca per scrivere qui",
     all: "Tutti gli stickies",
-    "no-data": "Annota un'idea, cattura un aha o registra un lampo di genio. Aggiungi uno sticky per iniziare.",
-    add: "Aggiungi sticky",
-    search_placeholder: "Cerca per titolo",
+    "no-data": "Annota un'idea, cattura un aha o registra un lampo di genio. Hozzáadás uno sticky per iniziare.",
+    add: "Hozzáadás sticky",
+    search_placeholder: "Keresés per titolo",
     delete: "Elimina sticky",
     delete_confirmation: "Sei sicuro di voler eliminare questo sticky?",
     empty_state: {
-      simple: "Annota un'idea, cattura un aha o registra un lampo di genio. Aggiungi uno sticky per iniziare.",
+      simple: "Annota un'idea, cattura un aha o registra un lampo di genio. Hozzáadás uno sticky per iniziare.",
       general: {
         title: "Gli stickies sono note rapide e cose da fare che annoti al volo.",
         description:
           "Cattura i tuoi pensieri e idee senza sforzo creando stickies a cui puoi accedere in qualsiasi momento e ovunque.",
         primary_button: {
-          text: "Aggiungi sticky",
+          text: "Hozzáadás sticky",
         },
       },
       search: {
         title: "Non corrisponde a nessuno dei tuoi stickies.",
         description: "Prova con un termine diverso o facci sapere se sei sicuro che la tua ricerca sia corretta.",
         primary_button: {
-          text: "Aggiungi sticky",
+          text: "Hozzáadás sticky",
         },
       },
     },
@@ -2630,7 +2630,7 @@ export default {
       in_progress: "In corso",
       paused: "In pausa",
       completed: "Completato",
-      cancelled: "Annullato",
+      cancelled: "Mégseto",
     },
     layout: {
       list: "Layout a lista",
@@ -2638,7 +2638,7 @@ export default {
       timeline: "Layout a timeline",
     },
     order_by: {
-      name: "Nome",
+      name: "Név",
       progress: "Avanzamento",
       issues: "Numero di elementi di lavoro",
       due_date: "Scadenza",
@@ -2647,11 +2647,11 @@ export default {
     },
   },
   cycle: {
-    label: "{count, plural, one {Ciclo} other {Cicli}}",
+    label: "{count, plural, one {Ciclo} other {Ciklusok}}",
     no_cycle: "Nessun ciclo",
   },
   module: {
-    label: "{count, plural, one {Modulo} other {Moduli}}",
+    label: "{count, plural, one {Modulo} other {Modulok}}",
     no_module: "Nessun modulo",
   },
   description_versions: {
@@ -2671,7 +2671,7 @@ export default {
         label: "Schema",
         empty_state: {
           title: "Intestazioni mancanti",
-          description: "Aggiungiamo alcune intestazioni a questa pagina per vederle qui.",
+          description: "Hozzáadásamo alcune intestazioni a questa pagina per vederle qui.",
         },
       },
       info: {
@@ -2696,7 +2696,7 @@ export default {
         download_button: "Scarica",
         empty_state: {
           title: "Immagini mancanti",
-          description: "Aggiungi immagini per vederle qui.",
+          description: "Hozzáadás immagini per vederle qui.",
         },
       },
     },
