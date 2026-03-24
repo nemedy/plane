@@ -7,201 +7,195 @@
 export default {
   common_empty_state: {
     progress: {
-      title: "Todavía no hay métricas de progreso para mostrar.",
+      title: "Még nincsenek megjeleníthető előrehaladási mutatók.",
       description:
-        "Comienza a establecer valores de propiedades en los elementos de trabajo para ver las métricas de progreso aquí.",
+        "Kezdj el értékeket beállítani a munkatételek tulajdonságainál, hogy itt megjelenjenek az előrehaladási mutatók.",
     },
     updates: {
-      title: "Aún no hay actualizaciones.",
-      description: "Una vez que los miembros del proyecto agreguen actualizaciones, aparecerán aquí",
+      title: "Még nincsenek frissítések.",
+      description: "Amint a projekt tagjai frissítéseket adnak hozzá, itt fognak megjelenni",
     },
     search: {
-      title: "No se encontraron resultados coincidentes.",
-      description: "No se encontraron resultados. Intenta ajustar tus términos de búsqueda.",
+      title: "Nincs találat.",
+      description: "Nem található eredmény. Próbáld módosítani a keresési feltételeket.",
     },
     not_found: {
-      title: "¡Ups! Algo parece estar mal",
-      description: "No podemos obtener tu cuenta de Plane actualmente. Esto podría ser un error de red.",
-      cta_primary: "Intentar recargar",
+      title: "Hoppá! Valami nem stimmel",
+      description: "Jelenleg nem tudjuk betölteni a Plane fiókodat. Ez hálózati hiba lehet.",
+      cta_primary: "Újratöltés megkísérlése",
     },
     server_error: {
-      title: "Error del servidor",
+      title: "Szerverhiba",
       description:
-        "No podemos conectarnos y obtener datos de nuestro servidor. No te preocupes, estamos trabajando en ello.",
-      cta_primary: "Intentar recargar",
+        "Nem tudunk csatlakozni a szerverhez és adatokat lekérni. Ne aggódj, dolgozunk a megoldáson.",
+      cta_primary: "Újratöltés megkísérlése",
     },
   },
   project_empty_state: {
     no_access: {
-      title: "Parece que no tienes acceso a este proyecto",
-      restricted_description: "Contacta con el administrador para solicitar acceso y podrás continuar aquí.",
-      join_description: "Haz clic en el botón de abajo para unirte.",
-      cta_primary: "Unirse al proyecto",
-      cta_loading: "Uniéndose al proyecto",
+      title: "Úgy tűnik, nincs hozzáférésed ehhez a projekthez",
+      restricted_description: "Vedd fel a kapcsolatot az adminisztrátorral a hozzáférés kéréséhez.",
+      join_description: "Kattints az alábbi gombra a csatlakozáshoz.",
+      cta_primary: "Csatlakozás a projekthez",
+      cta_loading: "Csatlakozás folyamatban",
     },
     invalid_project: {
-      title: "Proyecto no encontrado",
-      description: "El proyecto que buscas no existe.",
+      title: "A projekt nem található",
+      description: "A keresett projekt nem létezik.",
     },
     work_items: {
-      title: "Comienza con tu primer elemento de trabajo.",
+      title: "Kezdd el az első munkatételeddel.",
       description:
-        "Los elementos de trabajo son los bloques de construcción de tu proyecto — asigna responsables, establece prioridades y realiza un seguimiento del progreso fácilmente.",
-      cta_primary: "Crea tu primer elemento de trabajo",
+        "A munkatételek a projekt alapjai — rendelj hozzá felelősöket, állíts be prioritásokat, és kövesd nyomon az előrehaladást egyszerűen.",
+      cta_primary: "Első munkatétel létrehozása",
     },
     cycles: {
-      title: "Agrupa y delimita tu trabajo en Ciclos.",
+      title: "Szervezd a munkát ciklusokba.",
       description:
-        "Divide el trabajo en bloques con tiempo definido, trabaja hacia atrás desde la fecha límite de tu proyecto para establecer fechas y haz un progreso tangible como equipo.",
-      cta_primary: "Establece tu primer ciclo",
+        "Oszd a munkát időhöz kötött szakaszokra, tervezz visszafelé a határidőkből, és érj el kézzelfogható haladást csapatként.",
+      cta_primary: "Első ciklus létrehozása",
     },
     cycle_work_items: {
-      title: "No hay elementos de trabajo para mostrar en este ciclo",
+      title: "Nincsenek megjeleníthető munkatételek ebben a ciklusban",
       description:
-        "Crea elementos de trabajo para comenzar a monitorear el progreso de tu equipo en este ciclo y alcanzar tus objetivos a tiempo.",
-      cta_primary: "Crear elemento de trabajo",
-      cta_secondary: "Agregar elemento de trabajo existente",
+        "Hozz létre munkatételeket, hogy nyomon követhesd a csapat előrehaladását ebben a ciklusban.",
+      cta_primary: "Munkatétel létrehozása",
+      cta_secondary: "Meglévő munkatétel hozzáadása",
     },
     modules: {
-      title: "Asigna los objetivos de tu proyecto a Módulos y rastrea fácilmente.",
+      title: "Rendeld a projektcélokat modulokhoz és kövesd nyomon.",
       description:
-        "Los módulos están compuestos de elementos de trabajo interconectados. Ayudan a monitorear el progreso a través de las fases del proyecto, cada una con fechas límite específicas y análisis para indicar qué tan cerca estás de alcanzar esas fases.",
-      cta_primary: "Establece tu primer módulo",
+        "A modulok egymáshoz kapcsolódó munkatételekből állnak. Segítenek a projekt fázisainak követésében, határidőkkel és elemzésekkel.",
+      cta_primary: "Első modul létrehozása",
     },
     module_work_items: {
-      title: "No hay elementos de trabajo para mostrar en este Módulo",
-      description: "Crea elementos de trabajo para comenzar a monitorear este módulo.",
-      cta_primary: "Crear elemento de trabajo",
-      cta_secondary: "Agregar elemento de trabajo existente",
+      title: "Nincsenek megjeleníthető munkatételek ebben a modulban",
+      description: "Hozz létre munkatételeket a modul követéséhez.",
+      cta_primary: "Munkatétel létrehozása",
+      cta_secondary: "Meglévő munkatétel hozzáadása",
     },
     views: {
-      title: "Guarda vistas personalizadas para tu proyecto",
+      title: "Egyedi nézetek mentése a projekthez",
       description:
-        "Las vistas son filtros guardados que te ayudan a acceder rápidamente a la información que más usas. Colabora sin esfuerzo mientras los compañeros de equipo comparten y adaptan las vistas a sus necesidades específicas.",
-      cta_primary: "Crear vista",
+        "A nézetek mentett szűrők, amelyek segítenek gyorsan elérni a fontos információkat.",
+      cta_primary: "Nézet létrehozása",
     },
     no_work_items_in_project: {
-      title: "Aún no hay elementos de trabajo en el proyecto",
-      description: "Agrega elementos de trabajo a tu proyecto y divide tu trabajo en piezas rastreables con vistas.",
-      cta_primary: "Agregar elemento de trabajo",
+      title: "Még nincsenek munkatételek a projektben",
+      description: "Adj hozzá munkatételeket és bontsd fel a munkát követhető részekre.",
+      cta_primary: "Munkatétel hozzáadása",
     },
     work_item_filter: {
-      title: "No se encontraron elementos de trabajo",
-      description: "Tu filtro actual no devolvió ningún resultado. Intenta cambiar los filtros.",
-      cta_primary: "Agregar elemento de trabajo",
+      title: "Nincsenek találatok",
+      description: "A jelenlegi szűrők nem adtak eredményt. Próbáld módosítani őket.",
+      cta_primary: "Munkatétel hozzáadása",
     },
     pages: {
-      title: "Documenta todo — desde notas hasta PRDs",
+      title: "Dokumentálj mindent — jegyzetektől a specifikációkig",
       description:
-        "Las páginas te permiten capturar y organizar información en un solo lugar. Escribe notas de reuniones, documentación de proyectos y PRDs, incrusta elementos de trabajo y estructúralos con componentes listos para usar.",
-      cta_primary: "Crea tu primera Página",
+        "Az oldalak lehetővé teszik az információk egy helyen történő rögzítését és rendszerezését.",
+      cta_primary: "Első oldal létrehozása",
     },
     archive_pages: {
-      title: "Aún no hay páginas archivadas",
-      description: "Archiva las páginas que no están en tu radar. Accede a ellas aquí cuando las necesites.",
+      title: "Még nincsenek archivált oldalak",
+      description: "Archiváld a már nem szükséges oldalakat, és itt éred el őket.",
     },
     intake_sidebar: {
-      title: "Registra solicitudes de Entrada",
+      title: "Kérelmek rögzítése",
       description:
-        "Envía nuevas solicitudes para ser revisadas, priorizadas y rastreadas dentro del flujo de trabajo de tu proyecto.",
-      cta_primary: "Crear solicitud de Entrada",
+        "Küldj be új kérelmeket, amelyeket felülvizsgálhatsz és nyomon követhetsz.",
+      cta_primary: "Kérelem létrehozása",
     },
     intake_main: {
-      title: "Selecciona un elemento de trabajo de Entrada para ver sus detalles",
+      title: "Válassz egy beérkező munkatételt a részletek megtekintéséhez",
     },
   },
   workspace_empty_state: {
     archive_work_items: {
-      title: "Aún no hay elementos de trabajo archivados",
+      title: "Még nincsenek archivált munkatételek",
       description:
-        "Manualmente o mediante automatización, puedes archivar elementos de trabajo que estén completados o cancelados. Encuéntralos aquí una vez archivados.",
-      cta_primary: "Configurar automatización",
+        "Archiválhatod a befejezett vagy törölt munkatételeket. Itt találod őket.",
+      cta_primary: "Automatizálás beállítása",
     },
     archive_cycles: {
-      title: "Aún no hay ciclos archivados",
-      description: "Para ordenar tu proyecto, archiva los ciclos completados. Encuéntralos aquí una vez archivados.",
+      title: "Még nincsenek archivált ciklusok",
+      description: "Archiváld a befejezett ciklusokat a projekt rendszerezéséhez.",
     },
     archive_modules: {
-      title: "Aún no hay Módulos archivados",
-      description:
-        "Para ordenar tu proyecto, archiva los módulos completados o cancelados. Encuéntralos aquí una vez archivados.",
+      title: "Még nincsenek archivált modulok",
+      description: "Archiváld a befejezett vagy törölt modulokat.",
     },
     home_widget_quick_links: {
-      title: "Mantén a mano referencias importantes, recursos o documentos para tu trabajo",
+      title: "Fontos hivatkozások és dokumentumok gyors elérése",
     },
     inbox_sidebar_all: {
-      title: "Las actualizaciones de tus elementos de trabajo suscritos aparecerán aquí",
+      title: "Az értesítések itt jelennek meg",
     },
     inbox_sidebar_mentions: {
-      title: "Las menciones a tus elementos de trabajo aparecerán aquí",
+      title: "Az említések itt jelennek meg",
     },
     your_work_by_priority: {
-      title: "Aún no hay elementos de trabajo asignados",
+      title: "Még nincsenek hozzárendelt munkatételek",
     },
     your_work_by_state: {
-      title: "Aún no hay elementos de trabajo asignados",
+      title: "Még nincsenek hozzárendelt munkatételek",
     },
     views: {
-      title: "Aún no hay Vistas",
-      description:
-        "Agrega elementos de trabajo a tu proyecto y usa vistas para filtrar, ordenar y monitorear el progreso sin esfuerzo.",
-      cta_primary: "Agregar elemento de trabajo",
+      title: "Még nincsenek nézetek",
+      description: "Használj nézeteket a munkatételek szűrésére és követésére.",
+      cta_primary: "Munkatétel hozzáadása",
     },
     drafts: {
-      title: "Elementos de trabajo a medio escribir",
-      description:
-        "Para probarlo, comienza a agregar un elemento de trabajo y déjalo a medias o crea tu primer borrador a continuación. 😉",
-      cta_primary: "Crear borrador de elemento de trabajo",
+      title: "Félbehagyott munkatételek",
+      description: "Kezdj el egy munkatételt, vagy hozz létre egy piszkozatot.",
+      cta_primary: "Piszkozat létrehozása",
     },
     projects_archived: {
-      title: "No hay proyectos archivados",
-      description: "Parece que todos tus proyectos siguen activos — ¡buen trabajo!",
+      title: "Nincsenek archivált projektek",
+      description: "Minden projekt aktív — jó munka!",
     },
     analytics_projects: {
-      title: "Crea proyectos para visualizar las métricas del proyecto aquí.",
+      title: "Hozz létre projekteket a metrikák megjelenítéséhez.",
     },
     analytics_work_items: {
-      title:
-        "Crea proyectos con elementos de trabajo y responsables para comenzar a rastrear el rendimiento, progreso e impacto del equipo aquí.",
+      title: "Hozz létre projekteket munkatételekkel a teljesítmény követéséhez.",
     },
     analytics_no_cycle: {
-      title:
-        "Crea ciclos para organizar el trabajo en fases con límite de tiempo y rastrear el progreso en los sprints.",
+      title: "Hozz létre ciklusokat a munkafázisok kezeléséhez.",
     },
     analytics_no_module: {
-      title: "Crea módulos para organizar tu trabajo y rastrear el progreso en diferentes etapas.",
+      title: "Hozz létre modulokat a munka szervezéséhez.",
     },
     analytics_no_intake: {
-      title: "Configura la entrada para gestionar las solicitudes entrantes y rastrear cómo se aceptan y rechazan",
+      title: "Állítsd be a kérelmek kezelését és nyomon követését.",
     },
   },
   settings_empty_state: {
     estimates: {
-      title: "Aún no hay estimaciones",
+      title: "Még nincsenek becslések",
       description:
-        "Define cómo tu equipo mide el esfuerzo y rastréalo de manera consistente en todos los elementos de trabajo.",
-      cta_primary: "Agregar sistema de estimación",
+        "Határozd meg, hogyan méri a csapat a munkaráfordítást.",
+      cta_primary: "Becslési rendszer hozzáadása",
     },
     labels: {
-      title: "Aún no hay etiquetas",
-      description: "Crea etiquetas personalizadas para categorizar y gestionar efectivamente tus elementos de trabajo.",
-      cta_primary: "Crea tu primera etiqueta",
+      title: "Még nincsenek címkék",
+      description: "Hozz létre címkéket a munkatételek rendszerezéséhez.",
+      cta_primary: "Címke létrehozása",
     },
     exports: {
-      title: "Aún no hay exportaciones",
-      description:
-        "No tienes ningún registro de exportación en este momento. Una vez que exportes datos, todos los registros aparecerán aquí.",
+      title: "Még nincsenek exportok",
+      description: "Az exportált adatok itt jelennek meg.",
     },
     tokens: {
-      title: "Aún no hay tokens Personales",
+      title: "Még nincsenek személyes tokenek",
       description:
-        "Genera tokens API seguros para conectar tu espacio de trabajo con sistemas y aplicaciones externos.",
-      cta_primary: "Agregar token API",
+        "Hozz létre API tokeneket külső rendszerekhez.",
+      cta_primary: "API token hozzáadása",
     },
     webhooks: {
-      title: "Aún no se ha agregado ningún Webhook",
-      description: "Automatiza las notificaciones a servicios externos cuando ocurran eventos del proyecto.",
-      cta_primary: "Agregar webhook",
+      title: "Még nincsenek webhookok",
+      description: "Automatizáld az események külső értesítését.",
+      cta_primary: "Webhook hozzáadása",
     },
   },
 } as const;
